@@ -19,3 +19,38 @@ This project will also aid in my personal job search to aggregate available posi
 
 ## Resources Used:
 ##### Scraper Article: ["Web Scraping Job Postings from Indeed" - Michael Salmon](https://medium.com/@msalmon00/web-scraping-job-postings-from-indeed-96bd588dcb4b)
+##### Guiding Project: ["Data Science Salary Estimator" - PlayingNumbers Github](https://github.com/PlayingNumbers/ds_salary_proj)
+
+## Data Scraper
+
+File: Glassdoor_Job_Scraper.ipynb
+
+Using the scraper (above) to aggregate 1000 jobs from Glassdoor.com. The following elements were obtained:
+- Job Title
+- Salary Estimate
+- Job Description
+- Rating
+- Company Name
+- Division
+- Location
+- Size
+- Founded
+- Type of ownership (ie. Company-public, Hospital, Non-Profit etc.)
+- Industry
+- Sector
+- Company Revenue
+
+
+### Changes
+There were two major complications when using the original scraper
+1. Glassdoor had changed their website structure and HTML tags \n
+This rendered many HTML element finders (by XPATH) to become obsolete. Updates were made to reflect the changes in Glassdoor.
+2. Updates to the Selenium package \n
+Many of the functions within the Selenium package were deprecated. The program was updated to use the new functions.
+
+## Data Cleaning
+
+
+
+## Exploratory Data Analysis
+
