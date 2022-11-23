@@ -1,6 +1,10 @@
+# **Update:
+This project was terminated due to the discovery of a bug with Glassdoor's job postings website. After browsing to page 7 of the job postings, the same job postings would be repeated.
+
 # Project: Data Science Job Market and Salary prediction model
 ##### Author: Lingfeng Yang
 ##### Date: October 31, 2022
+
 The objective of this project is to analyze the current and past job market for Data Science roles, specifically new-grad roles. The project will also develop a model to predict salary based on various factors. 
 
 This project will showcase the entire Data Science project life cycle:
